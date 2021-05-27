@@ -1,0 +1,95 @@
+.text-center {
+    text-align: center;
+}
+
+.login__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login__form {
+    border: 1px solid #e2e2e2;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 2px solid #06874e;
+    padding: 30px;
+    box-shadow: 14px -3px 18px 1px rgb(0 0 0 / 3%)
+}
+
+.sign__in__header {
+    font-size: 28px;
+}
+
+.login__form__label {
+    display: block;
+    font-weight: 600;
+}
+
+.login__form__input {
+    background: #FFFFFF !important;
+    border: 1.2px solid #d5dadf;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 15px;
+    width: 100%;
+}
+
+
+.login__form__input:focus {
+    outline: none;
+}
+
+.remember__me__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.login__checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.login__submit__btn {
+    width: 100%;
+    border: none;
+    background: #06874e;
+    color: white;
+    padding: 13px 5px;
+    outline: none;
+    font-size: 20px;
+    font-family: "Roboto-Bold";
+}
+
+.login__footer {
+    padding-bottom: 15px;
+}
+
+.login__footer p a {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.field__error {
+    color: red;
+    margin-top: 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* custom margins */
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
